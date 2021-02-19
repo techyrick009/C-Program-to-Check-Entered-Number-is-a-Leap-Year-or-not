@@ -1,0 +1,44 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+
+
+void main() {
+
+int year;
+  
+
+//clrscr();
+
+    printf("C Program to Find Entered Year is a leap year or not.");
+
+    printf("\n\n Enter Number : ");
+    scanf("%i", &year);
+
+    
+
+     
+     
+  //Logic to check leap year
+
+   if ((year % 400 == 0) || ( ( year % 100 != 0) && (year % 4 == 0 ))) {
+       
+       printf("\n\n %i is a leap year!",year);
+   }
+   else {
+       
+       printf("\n\n %i is not a leap year!!",year);
+   }
+   
+  
+
+//getch();
+
+
+}
+
